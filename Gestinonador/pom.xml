@@ -1,0 +1,44 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>mx.com.nmp.dis</groupId>
+		<artifactId>reportes</artifactId>
+		<version>0.0.1</version>
+	</parent>
+	<artifactId>Gestinonador</artifactId>
+	<name>Gestionador</name>
+	<description>Plataforma que permite el acceso y gestion de los diferentes reportes de DIS</description>
+
+
+
+	<properties>
+		<start-class>mx.com.nmp.dis.gestionador.GestionadorMain</start-class>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>mx.com.nmp.dis</groupId>
+			<artifactId>Utilerias</artifactId>
+			<version>0.0.1</version>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<defaultGoal>spring-boot:run</defaultGoal>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-eclipse-plugin</artifactId>
+				<configuration>
+					<downloadSources>true</downloadSources>
+					<downloadJavadocs>true</downloadJavadocs>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>
