@@ -1,0 +1,6 @@
+package mx.com.nmp.dis.enums;
+
+public enum EstadoReporte {
+
+    SOLICITADO, CONSULTANDO, POR_GENERAR, GENERANDO, POR_ALMACENAR, ALMACENANDO, POR_NOTIFICAR, NOTIFICANDO, PROCESADO;
+}

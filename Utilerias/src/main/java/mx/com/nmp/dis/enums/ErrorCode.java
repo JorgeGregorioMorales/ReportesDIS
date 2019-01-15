@@ -4,8 +4,11 @@ public enum ErrorCode {
 
 	ERROR_GENERICO(1, "Error no especificado"), 
 	NO_ENCONTRADO(2, "No se encontró el elemento"), 
-	ERROR_CONNECT_MONGO(3, "No se pudo conectar a la instancia de mongo"), 
-	ERROR_DUPLICADO(4,"Ya existe un elemento con las mismas caracteristicas");
+	ERROR_CONNECT_ELASTIC(3, "No se pudo conectar a la instancia de elastic Search"), 
+    ERROR_DUPLICADO(4,"Ya existe un elemento con las mismas caracteristicas"), 
+    ERROR_PARSING_SOLICITUD(5,"Error al obtener la información de la solicitud"),
+
+    ERROR_DELETING_ELEMENT(6,"Error al eliminar el elemento solicitado");
 
 	private int id;
 	private String mensaje;

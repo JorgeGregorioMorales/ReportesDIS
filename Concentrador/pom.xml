@@ -15,6 +15,20 @@
 		<start-class>mx.com.nmp.dis.concentrador.ConcentradorMain</start-class>
 	</properties>
 
+	<dependencies>
+		<dependency>
+			<groupId>mx.com.nmp.dis</groupId>
+			<artifactId>Utilerias</artifactId>
+			<version>0.0.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>mx.com.nmp.dis</groupId>
+			<artifactId>ElasticConnector</artifactId>
+			<version>0.0.1</version>
+		</dependency>
+		
+	</dependencies>
 
 	<build>
 		<defaultGoal>spring-boot:run</defaultGoal>

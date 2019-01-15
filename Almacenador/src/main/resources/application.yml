@@ -1,0 +1,15 @@
+server:
+  port: 7040
+  servlet:
+    context-path:/AlmacenadorDIS
+
+spring:
+  profiles:
+    active: dev
+
+elasticsearch:
+  cluster-name:reportes_dis
+  cluster-nodes:25p2Iyg
+  protocol:http
+  host:127.0.0.1
+  port:9200

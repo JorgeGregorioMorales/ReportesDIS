@@ -8,7 +8,7 @@
 	</parent>
 
 
-	<artifactId>Utilerias4</artifactId>
+	<artifactId>Utilerias</artifactId>
 	<name>Utilerias</name>
 	<description>Clases de apoyo para la generación de Reportes</description>
 
